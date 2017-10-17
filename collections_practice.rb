@@ -36,7 +36,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map{|i| x = "blake"? "bl$ke" : x}
+  array.map{|i| x = "blake" ? "bl$ke" : x}
 end
   array
 end
