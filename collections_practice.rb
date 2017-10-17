@@ -37,9 +37,8 @@ end
 
 def kesha_maker(array)
   array.each do |i|
-    i[2].chop
+  i[2].chop
   end
-  array
 end
 
 def find_a(array)
