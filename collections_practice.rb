@@ -8,7 +8,7 @@ array.sort do |a, b|
     0
   elsif a < b
     1
-  elsif a > b
+  else a > b
     -1
   end
 end
