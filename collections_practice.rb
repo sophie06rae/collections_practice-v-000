@@ -38,8 +38,6 @@ end
 def kesha_maker(array)
   array.map{|i| x == "blake" ? "bl$ke" : x}
 end
-  array
-end
 
 def find_a(array)
   array.select {|i| i.start_with? "a"}
