@@ -40,6 +40,7 @@ def kesha_maker(array)
   if i == "blake"
     "bl$ke"
   end
+end 
   array
 end
 
