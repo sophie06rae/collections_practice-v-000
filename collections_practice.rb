@@ -13,3 +13,7 @@ array.sort do |a, b|
   end 
   end
 end
+
+def sort_array_char_count(array)
+  array.length.sort
+end 
