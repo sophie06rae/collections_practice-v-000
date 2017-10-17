@@ -37,9 +37,7 @@ end
 
 def kesha_maker(array)
   array.each do |i|
-  if i == "blake"
-    "bl$ke"
-  end
+  i.replace("blake","bl$ke")
 end 
   array
 end
