@@ -37,7 +37,7 @@ end
 
 def kesha_maker(array)
   array.each do |i|
-    i.replace(3, "$")
+    i[3].unshit
   end
   array
 end
