@@ -36,7 +36,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each {|i| i << "$"}
+  array.each do |i|
+    i.replace(3, "$")
+  end
+  array
 end
 
 def find_a(array)
