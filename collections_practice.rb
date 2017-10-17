@@ -10,5 +10,6 @@ array.sort do |a, b|
     1
   else a > b
     -1
+  end 
   end
 end
