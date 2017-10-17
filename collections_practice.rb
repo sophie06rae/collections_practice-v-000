@@ -36,7 +36,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map{|x| x == "blake" ? "bl$ke" : x }
+  array.map{|x| x.replace(3, "$")}
 end
 
 def find_a(array)
